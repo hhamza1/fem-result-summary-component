@@ -6,8 +6,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
     font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    padding: 24px;
 }
 
 button {
@@ -79,6 +82,24 @@ button {
     max-width: 65%;
     margin: 0;
     padding: 10px 0 36px 0;
+}
+
+.summary {
+    width: 100%;
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.summary > h2 {
+    color: hsl(224, 30%, 27%, 1);
+    font-size: .875rem;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.result-score {
+    margin: 10px 0;
+    padding: 5px 0;
 }
 
 
