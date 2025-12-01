@@ -24,6 +24,7 @@ button {
     font-family: inherit;
     width: 100%;
     padding: 15px 0;
+    cursor: pointer;
 }
 
 .general-result {
